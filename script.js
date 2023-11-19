@@ -58,30 +58,31 @@ tom.addEventListener('click', () => {
 
 document.addEventListener('keypress', (event) => {
         if(event.keyCode == 97){
-            new Audio("./sound/boom.wav").play();            
-        }else if(event.keyCode == 98){
+            new Audio("./sound/boom.wav").play();
+            boom.style.backgroundColor = "red";
+        }else if(event.keyCode == 115){
             new Audio("./sound/clap.wav").play();
         }
-        // else if(event.keyCode == 99){
-        //     new Audio("./sound/hihat.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
-        // else if(event.keyCode == 98){
-        //     new Audio("./sound/clap.wav").play();
-        // }
+        else if(event.keyCode == 100){
+            new Audio("./sound/hihat.wav").play();
+        }
+        else if(event.keyCode == 102){
+            new Audio("./sound/kick.wav").play();
+        }
+        else if(event.keyCode == 103){
+            new Audio("./sound/openhat.wav").play();
+        }
+        else if(event.keyCode == 104){
+            new Audio("./sound/ride.wav").play();
+        }
+        else if(event.keyCode == 106){
+            new Audio("./sound/snare.wav").play();
+        }
+        else if(event.keyCode == 107){
+            new Audio("./sound/tink.wav").play();
+        }
+        else if(event.keyCode == 108){
+            new Audio("./sound/tom.wav").play();
+        }
 
-})
+    });
